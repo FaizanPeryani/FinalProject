@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Register To Travel</title>
+        <style>
+            .menu{
+                color: rgb(255, 251, 251) ; 
+                font-size: 20px;
+                font-weight: 100; 
+                padding: 5px;
+                font-size: 25px;
+                width: 180px;
+                background-color: rgb(0, 0, 0);
+                border: 2px solid rgb(255, 255, 255);
+                border-collapse: collapse;
+                border-top: 0;
+                border-bottom: 0;
+            }
+            .form{
+                margin-left: auto;
+                margin-right: auto;
+                width: 450px;
+                padding: 20px;
+                text-align: center;
+                border: 1px solid #ccc;
+                background-color: white;
+            }
+            .feild{
+                padding-bottom:10px ;
+                margin-bottom: 36px;
+                font-size: 16px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;
+                
+                
+            }
+            .reg-button{
+                background-color: #0056ff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color:white;
+                border: 0;
+            }
+            .logos{
+                width: 50px;
+                height: 50px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 32px;
+                padding-right: 32px;
+                margin: auto;
+            }
+            .inputarea{
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+    </head>
+
+    <body style="background-color:#f2f6ff ; margin: 0;">
+        <header>
+            <nav style="text-align:center;      
+                background-color:black;  padding: 12px; text-align: center;" >
+                <a href="/finalproject.html"><button class="menu">TRIPS</button></a>
+                <a href="/AboutFP.html"><button class="menu">ABOUT</button></a>
+                <a href="/RegisterFP.html"><button class="menu">CONTACT</button></a>
+            </nav>
+        </header>
+
+        <h2 style="text-align: center; margin-top:100px ;">WANNA COME ON MY NEXT TRIP~</h2>
+        <form action="get" class="form" >
+            <div>
+                <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="Facebook logo" class="logos">
+                <img src= "https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="LinkedIn logo" class="logos">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png" alt="instagramlogo" class="logos">
+            </div>
+            <div class="inputarea">
+                <input type="text" name="Full Name" placeholder="Full Name" class="feild" > <br>
+                <input type="text" name="Contact No." placeholder="Contact Number (03xxxxxxxxx)"   
+                minlength="11" maxlength="11"  class="feild"> <br>
+                <input type="email" name="Email" placeholder="Email (example@example.com)"  class="feild"> <br>
+                <input type="submit" class="reg-button" value="Register" style="text-align:center ;">
+            </div>
+        </form>
+    </body>    
+</html>
